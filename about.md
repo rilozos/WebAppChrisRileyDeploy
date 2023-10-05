@@ -10,4 +10,6 @@ For detailed information about the News API, you can refer to the [API Documenta
 
 You can access our website and start exploring the latest tech news by visiting [App Deployment Link](https://web-app-chris-riley-deploy-jarr.vercel.app/).
 
+API ERROR, api calls work in localhost but subscription to API is required for deployment calls to work
+
 ---
