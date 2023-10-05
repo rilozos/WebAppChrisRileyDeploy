@@ -9,7 +9,8 @@ const getNews = async (keyword) => {
     const response = await fetch(`${url}?category=${category}&language=${language}&q=${keywordInput}`, {
         method: 'GET',
         headers: {
-            'Authorization' : accessToken
+            'X-Api-Key': accessToken,
+            'Authorization' : `Bearer ${accessToken}`
         }
     })
 

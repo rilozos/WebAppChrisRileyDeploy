@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getNews } from "./Api.js";
+import { getNews } from "./api.js";
 
 const Entry = ({ onNewsFetched, onSearchInitiated }) => {
   const [keyword, setKeyword] = useState('');
